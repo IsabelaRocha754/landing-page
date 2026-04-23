@@ -1,1 +1,2 @@
 # landing-page
+This is my first time fully building a web page. The design is provided by `The Odin Project` https://www.theodinproject.com/ and the instructions to the assigment can be found on https://www.theodinproject.com/lessons/foundations-landing-page
