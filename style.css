@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex: 1;
 }
 
 ul{
@@ -24,16 +25,66 @@ a{
 
 .awesome{
     font-family: Roboto;
-    color: white;
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 32px;
+    flex: 1;
 }
 
 .title{
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
+}
 
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+.information{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.random{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quo{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.credit{
+    text-align: right;
 }
